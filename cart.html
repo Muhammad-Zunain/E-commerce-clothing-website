@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/de9e1561cd.js" crossorigin="anonymous"></script>
+    <title>E - commerce Website</title>
+</head>
+<body>
+    <header >
+        <div class="head ">
+            <div class="logo"><a href="#"><img src="./img/logo.png"></a></div>
+                <nav>
+                    <ul id="navbar">
+                            <div class="logo"><a href="#"><img src="./img/logo.png"></a></div>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./shop.html" >Shop</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li  id="lg-bag"><a href="/cart.html" class="act"><i class="fa-solid fa-bag-shopping "></i></a></li>
+                            <a href="#" id="close" class="cross"><i class="fa-solid fa-xmark"></i></a>
+                    </ul>
+                </nav>
+                <div id="humburger">
+                    <a href="/cart.html"><i class="fa-solid fa-bag-shopping cart"></i></a>
+                    <i id="bar" class="fa-solid fa-outdent cart"></i>
+                </div>        
+        </div>
+    </header>
+    <section class="cart-section container">
+        <table>
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Product</td>
+                    <td>Product Name</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="./img/f1.jpg" alt=""></td>
+                    <td>Cartoon T-Shirt</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$78.0</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="./img/f2.jpg" alt=""></td>
+                    <td>Cartoon T-Shirt</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$78.0</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="./img/f3.jpg" alt=""></td>
+                    <td>Cartoon T-Shirt</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$78.0</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="cart-section1 container">
+        <div class="cart-div">
+            <h4>Apply Coupon</h4>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button  class="btn">Apply</button>
+        </div>
+        <div class="cart-table">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>SubTotal</th>
+                        <td>$78</td>
+                    </tr>
+                    <tr>
+                        <th>Tax</th>
+                        <td>$11</td>
+                    </tr>
+                    <tr>
+                        <th>Total</th>
+                        <td>$235</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#" class="primary-btn" style="border: 2px solid #088268; font-size: 14px;">Proceed To Cart</a></td>
+                    </tr>
+                </tbody>
+                
+            </table>
+            
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container container">
+            <div class="footer-div1 ">
+                <img src="./img/logo.png" alt="">
+                <div class="contact-div">
+                    <h4>Contact</h4>
+                    <p >Address: <span>567 Washington Road.Streer 32, San Francisco</span></p>
+                    <p>Phone: <span>+01 22222366/(+92) 01 222348945</span></p>
+                    <p>Hours: <span>10:00 - 8:00 , Mon - Sat</span></p>
+                </div>
+                <div class="social">
+                    <h4>Follow Us</h4>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-div2 ">
+                <h4>About</h4>
+                <p>About Us</p>
+                <p>Delivery Information</p>
+                <p>Privacy Policy</p>
+                <p>Trems & Conditions</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="footer-div3">
+                <h4>My Account</h4>
+                <p>Sign In</p>
+                <p>View Cart</p>
+                <p>My Wisglist</p>
+                <p>Track My Order</p>
+                <p>Help</p>
+            </div>
+            <div class="footer-div4 ">
+                <h4>Install App</h4>
+                <p>from App Store or Google Play</p>
+                <div class="footer-img">
+                    <img src="./img/app.jpg" alt="">
+                    <img src="./img/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateway</p>
+                <img src="./img/pay.png" alt="">
+            </div>
+        </div>
+        <div class="footer">
+            <p>copyright &copy; 2023 | All right reserved | MZ Designer</p>
+        </div>
+    </footer>
+    
+    <script src="./js/test.js"></script>
+</body>
+</html>
