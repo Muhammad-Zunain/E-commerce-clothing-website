@@ -24,9 +24,13 @@ This repository contains the source code for my E-commerce Clothing Website, a p
 
 ## How to Run
 
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your preferred web browser.
+```bash
+git clone https://github.com/Muhammad-Zunain/E-commerce-clothing-website/
+cd E-commerce-clothing-website
+open index.html  # Or manually open in your browser1. Clone this repository to your local machine.
+```
+#### 🔗 Live Demo:
 
 ## ScreenShot
 
-![Screenshot 2024-03-03 120349](https://github.com/Muhammad-Zunain/E-commerce-clothing-website/assets/146370860/4ffc0f0e-41e1-407d-82f7-51d8ef29a567)
+![proj_5](https://github.com/user-attachments/assets/87aa156b-6bbf-4323-8dbb-99f451535251)
